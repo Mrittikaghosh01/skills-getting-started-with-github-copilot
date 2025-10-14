@@ -1,0 +1,22 @@
+/* Hide bullet points for participants list and style delete icon */
+.participants-list {
+  list-style: none;
+  padding-left: 0;
+}
+.participants-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.delete-participant {
+  background: none;
+  border: none;
+  color: #c00;
+  cursor: pointer;
+  font-size: 1.1em;
+  padding: 0 0.2em;
+  transition: color 0.2s;
+}
+.delete-participant:hover {
+  color: #f33;
+}
